@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: indexing beyond the bounds of a vector. The `bug.rs` file contains the buggy code, which attempts to access an element at index 10 in a vector of length 5. This causes a runtime panic. The `bugSolution.rs` file provides a corrected version that uses the `get()` method to safely handle potential index out of bounds errors.
